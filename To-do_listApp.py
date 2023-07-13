@@ -76,7 +76,7 @@ def main():
             filename = input("Enter the filename to load tasks from: ")
             todo_list.load_tasks(filename)
         elif choice == "6":
-            print("Thank you for using the ToDo List App. Goodbye!")
+            print("Thank you for using the ToDo List App.")
             break
         else:
             print("Invalid choice. Please try again.")
